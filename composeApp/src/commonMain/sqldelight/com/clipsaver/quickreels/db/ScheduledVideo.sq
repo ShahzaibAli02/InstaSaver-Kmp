@@ -1,0 +1,24 @@
+CREATE TABLE ScheduledVideo (
+    id TEXT NOT NULL PRIMARY KEY,
+    videoPath TEXT NOT NULL,
+    thumbnailPath TEXT NOT NULL,
+    scheduledTime INTEGER NOT NULL,
+    description TEXT NOT NULL DEFAULT "",
+    hashtags TEXT NOT NULL DEFAULT "",
+    status TEXT NOT NULL DEFAULT "READY",
+    isPosted INTEGER NOT NULL DEFAULT 0
+);
+
+getAllScheduledVideos:
+SELECT * FROM ScheduledVideo ORDER BY scheduledTime ASC;
+
+insertScheduledVideo:
+INSERT OR REPLACE INTO ScheduledVideo(id, videoPath, thumbnailPath, scheduledTime, description, hashtags, status, isPosted)
+VALUES ?;
+
+deleteScheduledVideo:
+DELETE FROM ScheduledVideo WHERE id = ?;
+
+getScheduledVideoById:
+SELECT * FROM ScheduledVideo WHERE id = ?;
+

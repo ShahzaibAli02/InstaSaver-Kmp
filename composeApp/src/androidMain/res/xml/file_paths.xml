@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Gives access to ALL public media folders -->
+    <external-media-path
+        name="media"
+        path="." />
+
+    <external-path
+        name="external_files"
+        path="." />
+
+    <files-path
+        name="internal_files"
+        path="." />
+</paths>

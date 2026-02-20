@@ -1,0 +1,10 @@
+CREATE TABLE ScheduledVideo (
+    id TEXT NOT NULL PRIMARY KEY,
+    videoPath TEXT NOT NULL,
+    thumbnailPath TEXT NOT NULL,
+    scheduledTime INTEGER NOT NULL,
+    description TEXT NOT NULL DEFAULT "",
+    hashtags TEXT NOT NULL DEFAULT "",
+    status TEXT NOT NULL DEFAULT "READY",
+    isPosted INTEGER NOT NULL DEFAULT 0
+);
