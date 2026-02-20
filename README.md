@@ -2,7 +2,7 @@
 
 # 📸 InstaSaver Pro - Kotlin Multiplatform App
 
-<div align="center">
+<div >
 
 
 ### Kotlin Multiplatform (KMP) Open Source Project
