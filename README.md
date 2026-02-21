@@ -36,6 +36,27 @@
 
 ---
 
+# 🎥 Demo Video
+
+[![Watch InstaSaver Pro Demo](screenshots/ss1.jpeg)](https://youtube.com/shorts/OK-RFTQDvNA?feature=shared)
+
+
+# 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/ss3.jpeg" width="250"/>
+  <img src="screenshots/ss4.jpeg" width="250"/>
+</p>
+
+
+
+<p align="center">
+  <img src="screenshots/ss1.jpeg" width="250"/>
+  <img src="screenshots/ss2.jpeg" width="250"/>
+</p>
+
+
+
 ## 🏛️ Architecture
 
 | Property | Value |
