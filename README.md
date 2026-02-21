@@ -35,12 +35,6 @@
 - 🌐 Shared networking layer setup
 
 ---
-
-# 🎥 Demo Video
-
-[![Watch InstaSaver Pro Demo](screenshots/ss1.jpeg)](https://youtube.com/shorts/OK-RFTQDvNA?feature=shared)
-
-
 # 📸 Screenshots
 
 <p align="center">
